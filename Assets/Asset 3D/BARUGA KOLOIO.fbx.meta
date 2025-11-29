@@ -3,7 +3,42 @@ guid: 2afcd8922ef7ceb4780116fa3a1d3e99
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Color_M07
+    second: {fileID: 2100000, guid: 12a3b1ef8c081bf42864d52a634b2b30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontColor
+    second: {fileID: 2100000, guid: f99f6814c8452364ebdae20b99872d3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_3_thatched_roof_texture_seamless
+    second: {fileID: 2100000, guid: fcf3db9f1c4268643b1ede78d572fa7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Fence
+    second: {fileID: 2100000, guid: 8d6f601de6218e24c866276d4f22c181, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_Floor
+    second: {fileID: 2100000, guid: 13fb51c7936bd024aa4b3ac339b8bd76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Wood_Cherry_Original_6
+    second: {fileID: 2100000, guid: e3782d6325c20ee44995c3d564b4b5e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: akb_cedar_spanish
+    second: {fileID: 2100000, guid: a866c35f72a859f498e83585fe8525a5, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: e0c7ebfd8d02c3842a62ddb954d59e39
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rumah gadang sumbar
+    second: {fileID: 2100000, guid: 513b74cbd50bd424288668db37e5b2fe, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: 0144510b4dc624c40981699729a94266
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rumoh aceh
+    second: {fileID: 2100000, guid: dcd9368c7f3940e499af4cd8cafd0103, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

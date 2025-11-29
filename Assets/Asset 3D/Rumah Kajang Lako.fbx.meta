@@ -3,7 +3,12 @@ guid: 2cba706fbff2cb74d8e12d3880bce162
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jambi
+    second: {fileID: 2100000, guid: 81572700e8fd77041a41510cf1c71ff8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
