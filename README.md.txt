@@ -1,36 +1,58 @@
-# AR_Bangun_Ruang
-
-## Cara install pertama kali
-1. clone repositroy
-```
+AR-Project
+✅ Cara Install Pertama Kali
+1. Clone repository
 git clone <link_repository>
-```
-2. buka projectnya melalui unity hub 
-3. import package vuforia dan rebuild package
-4. tunggu hingga selesai
 
-## Cara push
-1. pastikan di gitignore ada baris
-```
+2. Buka project lewat Unity Hub
+
+Buka Unity Hub
+
+Klik Open Project
+
+Pilih folder hasil clone
+
+3. Import Vuforia Engine 10.18.4
+
+Import package Vuforia Engine 10.18.4
+
+Tunggu sampai proses rebuild package selesai
+
+✅ Cara Push ke GitHub
+1. Pastikan .gitignore sudah benar
+
+Tambahkan baris berikut:
+
 /Packages/*.tgz
-```
-2. tutup project unity dulu
-3. ubah _/Packages/manifest.json_
-```
-"com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.4.4.tgz"
-```
-jadi
-```
-"com.ptc.vuforia.engine": "11.4.4"
-```
-4. lalu push aja
 
-## Cara pull
-1. setelah pull dari github, tapi sebelum membuka project ubah lagi pada _/Packages/manifest.json_
-```
-"com.ptc.vuforia.engine": "11.4.4"
-```
-jadi (sesuaikan sesuai versi milik masing-masing)
-```
-"com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-11.4.4.tgz"
-```
+2. Tutup project Unity
+3. Ubah file Packages/manifest.json
+
+Dari:
+
+"com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.18.4.tgz"
+
+
+Menjadi:
+
+"com.ptc.vuforia.engine": "10.18.4"
+
+4. Commit & Push
+
+Lakukan commit
+
+Push ke GitHub
+
+✅ Cara Pull dari GitHub
+1. Pull repository
+2. Sebelum membuka project di Unity, ubah kembali manifest.json
+
+Dari:
+
+"com.ptc.vuforia.engine": "10.18.4"
+
+
+Menjadi:
+
+"com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.18.4.tgz"
+
+3. Buka project lewat Unity Hub
